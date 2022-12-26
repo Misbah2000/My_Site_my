@@ -4,20 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Site</title>
+    <title>My Site - Personal Portfolio</title>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <!-- Remixicon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- CSS Style -->
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="logo-img">
+                <img src="images/logo.png" alt="">
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#home" class="nav-link active-link">Hello</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
     <main class="main">
         <section class="home" id="home">
-            <div class="home-container grid">
+            <div class="home-container container grid">
                 <img src="images/photo.png" alt="" class="home-image">
                 <div class="home-data">
                     <h1 class="home-name">Misba Mansuri_</h1>
@@ -25,11 +59,21 @@
                     <dl class="home-list">
                         <dt>AGE:</dt>
                         <dd>22</dd>
+                        <dt>PHONE:</dt>
+                        <dd>+91 9284762576</dd>
                         <dt>EMAIL:</dt>
                         <dd>misbamansuri2000@gmail.com</dd>
                         <dt>ADDRESS:</dt>
-                        <dd>At Post. Khanapur, Distric. Amravati, Maharashra</dd>
+                        <dd>At Post. Khanapur, Distric. Amravati, Maharashra, India.</dd>
                     </dl>
+                   <div class="home-socials">
+                    <a href="https://github.com/Misbah2000" target="_blank" class="home-social-image">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                    <a href="linkedin.com/in/misba-mansuri-0856b622a" target="_blank" class="home-social-image">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                   </div>
                 </div>
             </div>
         </section>
