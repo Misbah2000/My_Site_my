@@ -474,12 +474,6 @@ input {
    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
 }
 
-@media (max-width:770px){
-   .wrapper{
-      padding: 20px;
-   }
-}
-
 /* CONTACT */
 .contact{
 background: var(--linear-gradient);
@@ -556,10 +550,7 @@ background-size: cover;
 
 .color-light{
    opacity: 1;
-}
-
-.color-dark{
-   opacity: 0.4;
+   color: rgb(243, 135, 135);
 }
 
 .contact-button {
@@ -601,4 +592,31 @@ background-size: cover;
    display: inline-flex;
    align-items: flex-start;
    column-gap: 0.3rem;
+}
+
+
+@media (max-width:900px){
+   .wrapper{
+      padding: 20px;
+   }
+   .home-container{
+      display: flex;
+      align-items: center;
+      flex-direction: column-reverse;
+      justify-content: center;
+   }
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home-image{
+      height: auto;
+      width: auto;
+      object-fit: cover;
+      border-radius: 0.3rem;
+      transform: translateY(3.125rem);
+      box-shadow: 0 0 27px rgb(251 255 255 / 92%);
+}
 }
