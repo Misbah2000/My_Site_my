@@ -101,6 +101,7 @@ input {
 }
 
 .section {
+   display: block;
    padding-top: 3.75rem;
    padding-bottom: 3.75rem;
 }
@@ -635,6 +636,9 @@ background-size: cover;
 nav .menu-icon,
 nav .cancel-icon{
    margin: 0 20px;
+}
+.skills-bar {
+   width: 300px;
 }
 }
 
