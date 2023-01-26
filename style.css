@@ -713,6 +713,9 @@ nav .cancel-icon{
       display: block;
       color: var(--text-color);
    }
+   .active-link{
+      opacity: 1;
+   }
 }
 
 @media (max-width:611px){
